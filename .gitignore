@@ -1,0 +1,13 @@
+venv/
+
+client_body_temp
+
+*_temp/
+# 忽略日志文件
+*.log
+
+*.pid
+
+# 忽略 IDE 和编辑器相关文件
+.vscode/
+.idea/

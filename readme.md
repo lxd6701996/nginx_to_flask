@@ -30,5 +30,7 @@ python3 app.py
 ## 启动nginx
 ```bash
 # 启动nginx
-nginx -c /root/test_2app_nginx/nginx_log/conf/nginx.conf -p /root/test_2app_nginx/nginx_log/
+mkdir nginx_info/logs
+mkdir nginx_info/data
+nginx -c /root/test_2app_nginx/nginx_info/conf/nginx.conf -p /root/test_2app_nginx/nginx_info/
 ```

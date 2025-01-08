@@ -1,11 +1,11 @@
+# 忽略app<X>下的文件
 venv/
+nohup.out
 
+# 忽略nginx_info下的文件
 client_body_temp
-
 *_temp/
-# 忽略日志文件
 *.log
-
 *.pid
 
 # 忽略 IDE 和编辑器相关文件

@@ -27,7 +27,6 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-
 ## 启动nginx
 ```bash
 # 启动nginx
